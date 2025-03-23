@@ -1,0 +1,69 @@
+<!DOCTYPE html>  <!-- Tipe doc nya HTML-->
+<html lang="id">  <!-- Elemen utama HTML mengunakan bahasa Indonesia -->
+
+<head>
+    <meta charset="UTF-8">  <!-- Menentukan karakter encoding UTF-8 untuk mendukung berbagai karakter -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Mengatur tampilan agar responsif di perangkat mobile -->
+    <title>Biodataku</title>  <!-- Judul halamannya -->
+</head>
+
+<body>
+
+    <h1>Biodataku</h1>  <!-- Judul utama halaman -->
+
+    <h2>Identitas Diri</h2>  <!-- Subjudul untuk identitas diri -->
+    <img src="foto.jpeg" alt="Foto Profil" width="100">  <!-- Gambar profil dengan ukuran lebar 100 piksel -->
+
+    <ul>  <!-- List tidak berurutan untuk menampilkan data identitas -->
+        <li><strong>Nama:</strong> Farasiska Oktamie</li>  <!-- Menampilkan nama -->
+        <li><strong>NIM:</strong> 202332088</li>  <!-- Menampilkan NIM -->
+        <li><strong>Prodi:</strong> Sistem Informasi</li>  <!-- Menampilkan program studi -->
+        <li><strong>Alamat:</strong> Jl.Raden salleh, Painan, Sumatera Barat</li>  <!-- Menampilkan alamat -->
+        <li><strong>Email:</strong> farasisk1710@gmail.com</li>  <!-- Menampilkan email -->
+    </ul>
+
+    <!-- Bagian Hobi -->
+    <h2>Hobi</h2>
+    <img src="Membaca.jpeg" alt="Membaca" width="100"> <!-- menampilkan fotoku yang hobby membaca -->
+    <img src="FAV.jpeg" alt="Makan Pical ayam & cumi " width="100"> <!-- Menampilkan gambar makanan fav aku -->
+    <ul>
+        <li>Membaca</li>
+        <li>Makan pical ayam & cumi </li>
+    </ul>
+
+    <h2>Riwayat Pendidikan</h2>  <!-- Subjudul untuk riwayat pendidikan -->
+    <table border="1">  <!-- Tabel dengan border (garis) -->
+        <tr>  <!-- Baris pertama sebagai header tabel -->
+            <th>No</th>  <!-- Kolom nomor -->
+            <th>Tingkat Pendidikan</th>  <!-- Kolom tingkat pendidikan -->
+            <th>Nama Sekolah</th>  <!-- Kolom nama sekolah -->
+            <th>Tahun Masuk-Lulus</th>  <!-- Kolom tahun masuk dan lulus -->
+        </tr>
+        <tr>  <!-- Baris kedua, data SD -->
+            <td>1</td>
+            <td>SD</td>
+            <td>SD 23 Painan </td>
+            <td>2011-2017</td>
+        </tr>
+        <tr>  <!-- Baris ketiga, data SMP -->
+            <td>2</td>
+            <td>SMP</td>
+            <td>SMP 1 Painan</td>
+            <td>2017-2020</td>
+        </tr>
+        <tr>  <!-- Baris keempat, data SMA -->
+            <td>3</td>
+            <td>SMA</td>
+            <td>SMA 2 Painan</td>
+            <td>2020-2023</td>
+        </tr>
+        <tr>  <!-- Baris kelima, data S1 -->
+            <td>4</td>
+            <td>S1</td>
+            <td>Institut Teknologi PLN</td>
+            <td>2023-Sekarang</td>
+        </tr>
+    </table>
+
+</body>
+</html>
