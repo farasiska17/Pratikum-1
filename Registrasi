@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrasi</title>
+</head>
+<body>
+
+    <h1>Registrasi Akun</h1>  <!-- Judul utama halaman -->
+
+    <label>Masukkan nama:</label>  <!-- Label untuk masukin nama -->
+    <input type="text" placeholder="Farasiska Oktamie" required>  <!-- masukin teks untuk nama dengan placeholder -->
+    <br><br>
+
+    <label>Masukkan NIM:</label>  <!-- Label untuk masukin NIM -->
+    <input type="tel" placeholder="202332088" required>  <!-- Input untuk NIM   -->
+    <br><br>
+
+    <label>Masukkan email:</label>  <!-- Label untuk masukin email -->
+    <input type="email" placeholder="farasiska1710@gmail.com" required>  <!-- masukin email  -->
+    <br><br>
+
+    <label>Jenis Kelamin:</label><br>  <!-- Label untuk masukin radio jenis kelamin -->
+    <input type="radio" name="gender" checked> Laki-Laki  <!-- masukin radio untuk laki-laki-->
+    <input type="radio" name="gender"> Perempuan  <!-- masukin radio untuk perempuan -->
+    <br><br>
+
+    <label>Agama:</label>  <!-- Label untuk dropdown agama -->
+    <select>  <!-- Dropdown pilihan agama -->
+        <option selected>Islam</option>  <!-- Opsi Islam (default terpilih) -->
+        <option>Kristen</option>  <!-- Opsi Kristen -->
+        <option>Hindu</option>  <!-- Opsi Hindu -->
+        <option>Budha</option>  <!-- Opsi Budha -->
+    </select>
+    <br><br>
+
+    <label>Masukkan password:</label>  <!-- Label untuk masukin password -->
+    <input type="password" placeholder="fara123" required>  <!-- Input password dengan placeholder -->
+    <br><br>
+
+    <label>Konfirmasi password:</label>  <!-- Label untuk konfirmasi password -->
+    <input type="password" placeholder="fara123" required>  <!-- masukin password kedua untuk validasi -->
+    <br><br>
+
+    <button type="button">Daftar</button>  <!-- Tombol untuk melakukan aksi tanpa form -->
+
+</body>
+</html>
